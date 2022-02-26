@@ -1,6 +1,6 @@
-# Credit_Risk_Analysis
+# Credit Risk
 
-## Overview of the analysis: 
+## Overview: 
 
 In this project we want to take a look at how the factors in our data predict whether someone is low or high risk status. We are evaluating and training models for this purpose. In this specific project we are using imbalanced-learn and scikit-learn libraries, and resampling. In the first couple of models I oversampled the data using randomoversampler and smote algorithms and undersample the data with the clustercentroid algorithm. In the remaining models I used a combination approach to over and undersample the data using smoteenn. Finally, I compared two machine learning models that minimize bias, balancedrandomforestclassifier and easyensembleclassifier.
 
